@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splash_activity_status_bar_color">#15AEFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color_xoverset">#FFffffff</color>
+    <color name="csb_bg">#ff1d7ea5</color>
+    <color name="mastervolume_seekbar_progress_bg_color">#FF88949c</color>
+    <color name="output_channel_valume_text_color">#FFe3a638</color>
+    <color name="equalizer_eq_progress_background_color">#FF88949c</color>
+    <color name="a1">#FF0B00</color>
+    <color name="a2">#FF7300</color>
+    <color name="a3">#FDFD0D</color>
+    <color name="a8">#43FE0F</color>
+    <color name="a5">#35FFEE</color>
+    <color name="a6">#4A8AF4</color>
+    <color name="a7">#CD01FF</color>
+</resources>

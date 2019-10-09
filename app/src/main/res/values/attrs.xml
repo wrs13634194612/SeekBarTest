@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="mhsb_seekbar">
+        <attr name="android:thumb" />
+        <attr name="mhs_numtext_size" format="dimension" />
+        <attr name="mhs_numtext_color" format="color" />
+        <attr name="mhs_progress_width" format="dimension" />
+        <attr name="mhs_progress_bar_round" format="dimension" />
+        <attr name="mhs_progress_background_color" format="color" />
+        <attr name="mhs_progress_color" format="color" />
+        <attr name="mhs_progress_max" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="eq_seekbar">
+        <attr name="android:thumb" />
+        <attr name="eq_progress_width" format="dimension" />
+        <attr name="eq_progress_bar_round" format="dimension" />
+        <attr name="eq_progress_background_color" format="color" />
+        <attr name="eq_progress_color" format="color" />
+        <attr name="eq_progress_max" format="integer" />
+    </declare-styleable>
+</resources>

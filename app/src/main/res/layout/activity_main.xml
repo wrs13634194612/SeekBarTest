@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eq_seekbar="http://schemas.android.com/apk/res-auto"
+    xmlns:mhsb_seekbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.testz.MainActivity">
+
+
+    <com.example.administrator.testz.MHS_SeekBar
+        android:id="@+id/id_mcl_seekbar_valume"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:thumb="@drawable/chs_mhs_seekbar_thumb"
+        mhsb_seekbar:mhs_numtext_color="@color/output_channel_valume_text_color"
+        mhsb_seekbar:mhs_numtext_size="12sp"
+        mhsb_seekbar:mhs_progress_background_color="@color/mastervolume_seekbar_progress_bg_color"
+        mhsb_seekbar:mhs_progress_color="@color/colorPrimary"
+        mhsb_seekbar:mhs_progress_max="60"
+        mhsb_seekbar:mhs_progress_width="2dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:text="0"
+        android:textColor="@color/white" />
+
+    <com.example.administrator.testz.EQ_SeekBar
+        android:id="@+id/id_mvs_equalizer_one_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:thumb="@drawable/chs_seekbar_thumb"
+        eq_seekbar:eq_progress_background_color="@color/equalizer_eq_progress_background_color"
+        eq_seekbar:eq_progress_bar_round="0dp"
+        eq_seekbar:eq_progress_color="@color/a2"
+        eq_seekbar:eq_progress_width="2dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+
+</RelativeLayout>
+
+
+
+
